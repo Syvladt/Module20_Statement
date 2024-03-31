@@ -26,7 +26,7 @@ std::string inputDate()
             std::cin.clear();
             std::cin.ignore();
         }
-        std::cin >> year;          // Считывакм год
+        std::cin >> year;          // Считываем год
         // Проверяем корректность введённой даты, включая проверку на високосный год
         if (year > 0)
         {
